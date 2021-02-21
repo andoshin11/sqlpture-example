@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "strict": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "incremental": true,
+    "types": ["node"],
+    "outDir": "lib",
+    "baseUrl": "."
+  },
+  "inc": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

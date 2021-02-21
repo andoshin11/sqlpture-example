@@ -1,0 +1,18 @@
+version: "3"
+services:
+  db:
+    image: postgres:13
+    container_name: db-container
+    ports: 
+      - "15432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mysecretpassword1234
+      - POSTGRES_DB=dvdrental
+    volumes:
+      - database:/var/lib/postgresql/data
+      - $PWD/dvdrental.tar:/tmp/dvdrental.tar
+
+volumes:
+  database:
+    driver: local
