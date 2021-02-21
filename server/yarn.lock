@@ -1138,10 +1138,10 @@ split2@^3.1.1:
   dependencies:
     readable-stream "^3.0.0"
 
-sqlpture@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/sqlpture/-/sqlpture-0.0.2.tgz#2c30a016cd8be9fb4cba383c27d55475c996615b"
-  integrity sha512-iAmNnZ+p5hNr1l0xKcD7CUFqVQmCk0E0f7gtSxmu43txOeA6UjIcMzLtf5VaHDvyUJC0hwu2GTuPqrPYvjgSDg==
+sqlpture@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/sqlpture/-/sqlpture-0.0.3.tgz#522526e5691ef6ea19c0d47a4ffabaed9170cbc8"
+  integrity sha512-W3c1QkBXtjEZqfAdtmDs+Wjgdk+2skDna0yxUyI2Xpwva2rGveHxm8zYwnVneOsmrJt9Z3FT9X0kuHAKuERK3w==
 
 sqlstring@2.3.1:
   version "2.3.1"
