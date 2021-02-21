@@ -26,7 +26,7 @@ Requirements:
  - `make start-db` to start PostgreSQL container
  - The container will be accessible on `localhost:15432`
 
-2. Retore Database
+2. Restore Database
   - `dvdrental.tar` is a dumpt PostgreSQL data which contains both migration history, and actual data
   - `make restore-db` to restore data
   - The database will be accesible on `postgres://postgres:mysecretpassword1234@localhost:15432/dvdrental`
