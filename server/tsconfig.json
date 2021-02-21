@@ -6,7 +6,6 @@
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "incremental": true,
     "types": ["node"],
     "outDir": "lib",
     "baseUrl": "."

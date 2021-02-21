@@ -10,6 +10,10 @@ restore-db:
 backup-db:
 	pg_dump -h localhost -p 15432 -U postgres --password --format=t dvdrental > dvdrental.tar
 
+.PHONY: typegen
+typegen:
+	cd server; yarn run typegen:db
+
 .PHONY: start-server
 start-server:
 	cd server; yarn run start
