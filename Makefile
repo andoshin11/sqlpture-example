@@ -16,4 +16,4 @@ typegen:
 
 .PHONY: start-server
 start-server:
-	cd server; yarn run start
+	cd server; yarn install; yarn run dev

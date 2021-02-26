@@ -12,7 +12,16 @@ services:
     volumes:
       - database:/var/lib/postgresql/data
       - $PWD/dvdrental.tar:/tmp/dvdrental.tar
-
+  # server:
+  #   build:
+  #     context: .
+  #     dockerfile: ./Dockerfile
+  #   ports:
+  #     - "3010:3010"
+  #   volumes:
+  #     - $PWD/server/src:/app/src
+  #   links:
+  #     - "db:database"
 volumes:
   database:
     driver: local

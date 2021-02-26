@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "yarn run build && node lib/index.js"
+}
