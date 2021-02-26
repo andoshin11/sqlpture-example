@@ -16,7 +16,7 @@
     "@types/pg": "^7.14.10",
     "nodemon": "^2.0.7",
     "schemats": "^3.0.3",
-    "sqlpture": "0.0.6",
+    "sqlpture": "0.0.7",
     "typescript": "4.1.3",
     "utility-types": "^3.10.0"
   },

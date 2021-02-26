@@ -1740,10 +1740,10 @@ split2@^3.1.1:
   dependencies:
     readable-stream "^3.0.0"
 
-sqlpture@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/sqlpture/-/sqlpture-0.0.6.tgz#9d1c9d34971be4d7dbb6099bf9b056618760e98e"
-  integrity sha512-Zf53hGrmcTznn4DTOs7tSwq62+teHHvAi3jv3O+yBG9H+FKNGwpccYhz/jLo/O+78LJp6quaFqur5qdsGUusMQ==
+sqlpture@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/sqlpture/-/sqlpture-0.0.7.tgz#d9c41fb9ddec49cc86f3e67c61bd28cb80683c41"
+  integrity sha512-Z/mo7rr16eigqJOqPyxzNEWFYlqAR4dFdNMFJ/ABc2Wnl+HxtiGzSgVrTU/PIqVa3r3UerCbmlkT8mxB3VABKQ==
 
 sqlstring@2.3.1:
   version "2.3.1"
