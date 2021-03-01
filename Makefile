@@ -12,7 +12,7 @@ backup-db:
 
 .PHONY: typegen
 typegen:
-	cd server; yarn run typegen:db
+	cd server; yarn install;yarn run typegen:db
 
 .PHONY: start-server
 start-server:
